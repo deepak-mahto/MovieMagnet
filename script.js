@@ -8,7 +8,7 @@ let ratings = 0;
 let genre = "";
 let filteredArrOfMovies = [];
 
-const URL = "https://movies-app.prakashsakari.repl.co/api/movies";
+const URL = "https://movie-magnet-7608f-default-rtdb.firebaseio.com/.json";
 const getMovies = async (url) => {
   try {
     const { data } = await axios.get(url);
